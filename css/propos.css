@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+ 
+ #showimage{
+    background-image:url("../img/banner.png");
+    background-repeat: none;
+    background-size: cover;
+     height:55vh;
+     display:flex;
+     flex-direction:column;
+     padding:0px 20px;
+ }
+
+  #showimage h1{
+      padding:50px 20px;
+      line-height:1.5;
+  }
+
+  #showimage h1 span{
+      color:blue;
+  }
+ .row-top{
+  height: 400px;
+  display:flex;
+  flex-direction:row;
+ }
+ .row-top .col-photos{
+     flex:50%; 
+ }
+ .image{
+    padding:30px;
+    text-align:center;
+   
+ }
+  .image img{
+      width:70%;
+      box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  }
+ 
+
+ .row-top .col-text{
+     flex:50%;
+     padding:20px 20px;
+ }
+
+ .row-top .col-text h3{
+  padding:10px 0px 0px 0px;
+  margin:0px 0px 30px;
+  font: 19px  sans-serif;
+
+ }
+
+ .row-top .col-text h2{
+     font:30px 'Arial',sans-serif;
+     font-weight: bold;
+     margin:10px 0px 20px 0px;
+}
+
+.row-top .col-text .text{
+    width:70%;
+}
+.row-top .col-text p{
+     line-height:1.6;
+     text-align:justify;
+     text-indent:10px;
+     font-size:17px;
+     
+}
+
+ .row-bottom{
+    height: 500px;
+ }
+
+ .row-bottom h2{
+     text-align:center;
+     padding:40px; 
+ }
+  
+
+ .row-bottom .col-information{
+     display:grid;
+     grid-template-columns: auto auto auto;
+     grid-gap: 0px;
+     
+     margin:auto;
+     width: 80%; 
+ }
+
+ .row-bottom .col-information > aside{
+     padding:5px;
+     height:250px;
+     width:300px;
+     border:1px groove rgba(143, 103, 255, 0.555);
+     border-bottom-right-radius:20px;
+     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+ }
+
+  .aside > div{
+      display:flex;
+      flex-direction:column;
+  }
+
+  aside .profile-image{
+      align-items:center;
+  }
+  aside .profile-image img{
+     width:50%;
+     border-radius:50%;
+ }
+ 
+ aside .nom_medecin{
+     text-align:center;
+     padding:10px 0 5px 0;
+     font-size:19px;
+ }
+ aside .speciality{
+    text-align:center;
+    padding:10px 0 5px 0;
+    font-size:19px;
+ }
+
+
+ .aside-add h1{
+     text-align:center;
+     padding-bottom:10px;
+ }
+
+ .aside-add p{
+  padding:10px 10px;
+  font-size:18px;
+ }
+  aside i{
+      padding-right:10px;
+  }
+
+  aside .nom{
+      padding:10px;
+     
+      font-size: 19px;
+  } 
+
+  aside .content{
+    line-height:1.6;
+    text-align:justify;
+    text-indent:10px;
+    font-size:17px;
+    padding:5px;
+  }
+
+  aside .content a{
+      text-decoration:none;
+
+  }
